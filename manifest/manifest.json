@@ -1,0 +1,32 @@
+{
+    "theme_color": "#8aefdc",
+    "background_color": "#51f4e6",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "https://lizakaida.github.io/Zaliczenie_witryna_PWA/",
+    "name": "Yelyzaveta Kaida Biuro podr\u00f3\u017cy - Blue Lagoon",
+    "short_name": "Blue Lagoon",
+    "description": "aplikacja PWA - zaliczenie",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
