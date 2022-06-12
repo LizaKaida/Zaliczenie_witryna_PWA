@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url('https://s1.1zoom.me/b5347/829/Tropics_Coast_Beach_541858_1920x1080.jpg');
+    background-position: 45% center;
+    height: 80vh;
+    margin-bottom: 10px;
+}
+header h1{
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.123);
+    padding: 50px 0;
+    height: 50vh;
+    line-height:  10vh;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 5px rgb(112, 100, 100);
+}
+
+body {
+    font-family: 'Open Sans', Futura,     Helvetica, Arial, sans-serif;
+    position:relative;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.img2 {
+    background-image: url('https://ocdn.eu/pulscms-transforms/1/uxfk9kpTURBXy83MDQxY2NmNDU3YWQ3NWVlOTQxNWE3YzZmNDQ1ZmNkOC5qcGeTlQMBAM0P1c0I6JMJpmY3NmJmYwaTBc0EsM0CdoGhMAE/playa-punta-cana-dominikana-zdj-ilustracyjne.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+.img3 {
+    background-image: url('https://fly.pl/wp-content/uploads/2014/06/Tulum-Meksyk-pla%C5%BCa.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+.img4 {
+    background-image: url('https://i.wpimg.pl/O/800x/filerepo.grupawp.pl/api/v1/display/embed/9f4be232-9efc-4a09-993a-6043234ddc48');
+    background-position: 50% center;
+    background-position: cover;
+    height: 200px;
+}
+.img5 {
+    background-image: url('https://tvn24.pl/najnowsze/cdn-zdjecie-25ydqa-dubaj-otwiera-sie-na-turystow-4632332/dubaj_1184460517.jpg');
+    background-position: 50% center;
+    background-position: cover;
+    height: 200px;
+}
+.img6 {
+    background-image: url('https://i.wpimg.pl/1200x/d.wpimg.pl/416672766-622631548/screen.jpg');
+    background-position: 50% center;
+    background-position: cover;
+    height: 200px;
+    
+}
+.img7 {
+    background-image: url('https://carter.eu/blog/wp-content/uploads/2021/05/Zakynthos-glowne-1024x614.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+.img8 {
+    background-image: url('https://static.300gospodarka.pl/media/2020/01/shutterstock_245773270-e1580203845786.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+.img9 {
+    background-image: url('https://www.simglob.com/images/panstwa/medium-kxmco5jis6q8bgd7hytn01pv9fewaurz423l20190611082550.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+.img10 {
+    background-image: url('https://www.simglob.com/images/panstwa/medium-s20l5ihdwj8x16ykr4qv7oegztmpna93bufc20190610163650.jpg');
+    background-position: 45% center;
+    background-position: cover;
+    height: 200px;
+}
+
+h3,h5{
+    padding: 5px;
+    text-align: center;
+}
+.travel p{
+    padding: 20px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to center, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+   
+   
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:center;
+	top:1px;
+    
+}
+footer{
+    padding: 20px 30px;
+    background-color: rgb(134, 238, 252);
+    margin-top: 5px;
+    height: 15vh;
+    
+}
+footer p{
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+@media (min-width: 768px) { 
+    main {
+        display: flex;
+        flex-direction: row; /*domyslny uklad poziomy*/
+        flex-wrap: wrap;
+
+    }
+    .travel{
+        width: 50%;
+        padding: 20px;
+    }
+}
+@media (min-width: 999px){
+    .travel {
+        width: calc(100% / 3);
+    }
+}
+
+
+
+
+
